@@ -12,7 +12,7 @@ template name: homepage
 				<div class="container">
 					<div class="row">
 						<div class="col-12 col-md-5 hellospace">
-							<h1 class="re-font50">Hello</h1>
+							<h1 class="re-font50">Hello.</h1>
 							<h3 class="re-font25">We are a self-advocacy group for people with learning disabilities in the Wokingham borough</h3>
 						</div>
 						<div class="col-12 col-md-4 hellospace re-font20">
