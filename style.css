@@ -1,0 +1,435 @@
+/*
+Theme Name: Clasp
+Author: Rachel Eldridge
+Description: The Clasp theme
+Version: 0.0.1
+Tags: bootstrap v4
+*/
+/* Show it's not fixed to the top */
+/*main text*/
+	body {
+		min-height: 75rem;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 400;
+		color: #555555;
+	}
+/*Main css classes*/
+	.space_re {
+		padding: 50px 0px;
+		margin: 50px 0px;
+	}
+	.nopadding_re {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.noradius_re {
+		border-radius: 0px !important;
+	}
+	.re-smalltoppad {
+		padding-top: 7px;
+	}
+	.re-font14 {
+		font-size: 14px;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 400;
+	}
+	.re-font16 {
+		font-size: 16px;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 400;
+	}
+	.re-font18 {
+		font-size: 18px;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 400;
+	}
+	.re-font20 {
+		font-size: 20px;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 400;
+	}
+	.re-font25 {
+		font-size: 25px;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 400;
+	}
+	.re-font30 {
+		font-size: 30px;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 400;
+	}
+	.re-font35 {
+		font-size: 35px;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 400;
+	}
+	.re-font50 {
+		font-size: 50px;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 400;
+	}
+	.re-font40 {
+		font-size: 40px;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 400;
+	}
+/*Sections*/
+	/*Navigation*/
+	.navbar-inverse .navbar-nav .nav-link {
+		color: black;
+		font-size: 18px;
+	}
+	.navbar-inverse:hover .navbar-nav:hover .nav-link:hover {
+		text-decoration: underline !important;
+		color: black !important;
+	}
+	.navbar-inverse:visited .navbar-nav:visited .nav-link:visited {
+		text-decoration: underline !important;
+		color: black !important;
+	}
+	.navcolor-re {
+		color: black;	
+	}
+	.re-underline:visited {
+		text-decoration: none !important;
+		color: black !important;
+	}
+	.re-underline:hover {
+		text-decoration: underline !important;
+		color: black !important;
+	}
+	.navbar-inverse .navbar-nav .active>.nav-link, .navbar-inverse .navbar-nav .nav-link.active, .navbar-inverse .navbar-nav .nav-link.open, .navbar-inverse .navbar-nav .open>.nav-link {
+		color: black;
+		font-size: 18px;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 400;
+	}
+
+	.logotext_re {
+		line-height:1.2em;
+		padding-top:20px;
+	}
+	.logoimg_re img { 
+		width: 100%;
+		padding-top: 20px;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 400;
+	}
+	.logorow_re {
+		padding-bottom: 30px;
+	}
+	.maintop {
+		border-bottom: 5px solid #EFEFEF;
+	}
+	.maintop a {
+		color: black;
+		text-decoration: none;
+	}
+	.maintop a:hover {
+		color: black;
+		text-decoration: underline;
+	}
+	/*Carousel*/
+	.carousel-item img {
+		width: 100%;
+		height: 100%;
+	}
+	.carousel-item {
+		width: 100%;
+		height: 100%;
+	}
+	.newsarcticleue a {
+    color: #0275d8!important;
+	}
+	.newsarcticleue a:hover {
+		color: #0275d8!important;
+		text-decoration: underline!important;
+	}
+	a:hover {
+    color: white!important;
+	text-decoration: underline!important;
+	}
+	/*Hello*/
+	.hellospace {
+		padding: 10px;
+	}
+	/*4 Main projects*/
+	.sidepadding_re h2 {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.mainprojects {
+		background-color: #F0F0F0;
+		overflow: hidden;
+	}
+	.mainprojects .container {
+		margin-bottom:-2px;
+	}
+	.responsivetext_re {
+		font-size: 100%;
+	}
+	.mainprojectstitle_re {
+		padding: 30px;
+		color: white;
+		margin: 0px;
+	}
+	.mainprojectstitle_re:hover {
+		text-decoration: underline;
+	}
+	.mainprojects .col-md-3 {
+		border-left: 1px solid white;
+		padding:0px !important;
+		margin:0px !important;
+	}
+	.mainprojects .col-md-3:first-child  {
+		border-left: 1px solid #f0f0f0;
+	}
+	/*News, articles and Upcoming events*/
+	.newsarcticleue {
+		overflow: hidden;
+	}
+	.newsarcticleue .container {
+		margin-bottom:-2px;
+	}
+	.newsarcticleue h6 {
+		padding-top: 10px;
+	}
+	.title {
+		padding: 10px 20px;
+		background-color: #FF3A4A;
+		color: white;
+		
+	}
+	.newsarcticleue_style {
+		border-bottom: 5px solid #FF3A4A;
+		margin-bottom: 10px;
+	}
+	.re-date {
+		background-color: #3E77FA;
+		color: white;
+		text-align: center;
+		padding: 5px;
+		padding-bottom: 0px;
+		border-bottom: 2px solid white;
+	}
+	.re-date span {
+		display:block;
+	}
+	.re-hidedate .col-12 {
+		display: none;
+	}
+	.margin_re {
+		margin-left: 5px;
+	}
+	.newsarticle {
+		color: #FF3A4A;
+	}
+	.newsarcticleue P {
+		margin-bottom: 5px;
+	}
+	/*Support the work of Clasp*/
+	.support {
+		background-color:#7965FA;
+		text-align: center;
+	}
+	.support h3 {
+		font-size: 40px; 
+		font-weight: 400;
+		color:white;
+		padding-bottom:30px;
+	}
+	.support img {
+		width:100%;
+	}
+	/*Footer*/
+	.footer p {
+		text-align: center;
+	}
+	.footer {
+		padding: 20px 0px;
+	} 
+	.re-menu {
+		width: 100%;
+		padding: 10px;
+	}
+	.re-menu a {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	/* Search Bar style */
+	#searchsubmit {
+		width: 100%;
+		margin-top:10px;
+	}
+	#s {
+		width: 100%;
+	}
+	.re-featuredimg img{
+		width: 100%;
+		height: auto;
+	}
+/*
+	.re-volunteer {
+		background-color:#ff3f4a;
+		border-bottom: solid 4px #ff3f4a;
+	}
+	.re-join {
+		background-color:#ff7150;
+		border-bottom: solid 4px #ff7150;
+	}
+	.re-donate {
+		background-color:#ffe71b;
+		border-bottom: solid 4px #ffe71b;
+	}
+	.re-fundraising {
+		background-color:#4378ff;
+		border-bottom: solid 4px #4378ff;
+	}
+	.re-callus {
+		background-color:#15e76a;
+		border-bottom: solid 4px #15e76a;
+	}
+	.re-whitetext {
+		padding: 15px;
+		color:white;
+		font-size: 20px;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 400;
+	}
+	.re-blacktext {
+		padding: 15px;
+		color:black;
+		font-size: 20px;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 400;
+	}
+	.re-blacktext:hover {
+		color:black;
+		text-decoration: underline;
+	}
+	.re-whitetext:hover {
+		color:white;
+		text-decoration: underline;
+	}
+	 */
+	/* Colors	*/
+	.re-coffeeshop {
+		background-color:#FF6F50;
+		border-radius: 0px !important;
+		border: 1px solid #FF6F50;
+		margin-bottom: 2px;
+	}
+	.re-takenotice {
+		background-color:#FF3A4A;
+		border-radius: 0px !important;
+		border: 1px solid #FF3A4A;
+		margin-bottom: 2px;
+	}
+	.re-listentous {
+		background-color:#3E77FA;
+		border-radius: 0px !important;
+		border: 1px solid #3E77FA;
+		margin-bottom: 2px;
+	}
+	.re-hatecrime {
+		background-color:#FF4CFF;
+		border-radius: 0px !important;
+		border: 1px solid #FF4CFF;
+		margin-bottom: 2px;
+	}
+	.re-whitetext {
+		padding: 15px;
+		color:white;
+		font-size: 20px;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 400;
+	}
+	.re-whitetext:hover {
+		color:white;
+		text-decoration: underline;
+	}
+	.entry-title {
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+	.blog-post-title {
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+	.pip-nav {
+		padding:40px 0px; 
+	}
+	.pip-nav ul {
+		list-style-type: none; 
+		margin:0px; 
+		padding:0px; 
+	}
+	.pip-nav ul { 
+		list-style-type: none; 
+		margin:0px;
+		padding:0px; 
+	}
+	.pip-nav li {
+		display: inline; 
+		padding-right: 20px; 
+	}	
+	.re-links {
+		margin-top: 20px;
+		padding-top: 10px;
+		text-align: center;
+	}
+	.wpcf7-text {
+		width:100%;
+	}
+	.wpcf7-textarea {
+		width:100%;
+	}
+	.re-address {
+		padding-bottom: 20px!important;
+	}
+	.re-search {
+		margin-top: 20px!important;
+	}
+	.event-list ul {
+		padding:0px;
+		margin:0px; 
+	}
+	.events-table a{
+		color: black
+	}
+	.events-table:hover a {
+		color: black;
+		text-decoration:underline;
+	}
+	.event-color {
+		background-color:rgb(62, 119, 250);
+		color: white;
+	}
+ @media (max-width: 576px) { 
+	.textleft_re {
+		text-align: left!important;
+	}
+	.mainprojectstitle_re {
+		font-size: 1em;
+	}	
+}
+@media (max-width: 768px) { 
+	.mainprojectstitle_re {
+		font-size: 1em;
+	}
+	.noradius_re {
+		width: 25%;
+	}
+}
+@media (min-width: 992px) { 
+.mainprojectstitle_re {
+		font-size: 1.5em;
+	}
+}
+@media (max-width: 1200px) { ... }
+.mainprojectstitle_re {
+		font-size: 1.5em;
+	}
+.navbar-inverse .navbar-nav .nav-link:focus, .navbar-inverse .navbar-nav .nav-link:hover {
+	color:rgba(155,155,155,1.0)!important;
+}
